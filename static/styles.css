@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    transition: background 0.5s ease-in-out;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    background-color: #ffebcd;
+    transform: scale(1.1);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+}
+
+button:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}
+
+.btn-success {
+    background: #007bff;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.btn-success:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
